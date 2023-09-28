@@ -9,7 +9,6 @@ packages = [{include = "l1_dim_pruner", from = "src"}]
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
 torch = "^2.0.1"
-numpy = "^1.26.0"
 
 
 [tool.poetry.group.dev.dependencies]
