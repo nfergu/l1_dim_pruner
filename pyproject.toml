@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Neil Ferguson"]
 readme = "README.md"
-packages = [{include = "l1_channel_pruner", from = "src"}]
+packages = [{include = "l1_dim_pruner", from = "src"}]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.13"
