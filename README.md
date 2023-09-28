@@ -19,7 +19,7 @@ pip install git+https://github.com/nfergu/l1_dim_pruner.git
 
 ```python
 from l1_dim_pruner.pruner import l1_dim_unstructured
-l1_dim_unstructured(module, name="weight", proportion=0.5, pruning_dim=1)
+l1_dim_unstructured(layer, name="weight", proportion=0.5, pruning_dim=1)
 ```
 
 This prunes 50% of the values of "weight" parameter in the `layer` module, using
