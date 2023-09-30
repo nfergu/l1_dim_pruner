@@ -31,6 +31,6 @@ a pruning dimension of 1 (i.e. pruning along the second dimension of the weight 
 |:--------:|:--------:|:--------:|:--------:|
 |[GPT-2 (nanoGPT)](https://github.com/nfergu/nanogpt_l1_dim_pruner)<sup>1</sup>|3.0959|4.3384|**3.5679**|
 
-<sup>1</sup> Pruning 50% of the weights in the fully-connected layers of a GPT-2 model. See [this repo](https://github.com/nfergu/nanogpt_l1_dim_pruner) for the benchmark code.
+<sup>1</sup> Pruning 50% of the weights in the fully-connected layers of a GPT-2 model, along dimension 1 (second dimension). See [this repo](https://github.com/nfergu/nanogpt_l1_dim_pruner) for the benchmark code.
 
 TODO: More benchmarks...
